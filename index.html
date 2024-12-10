@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Learning Tools</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #3b82f6;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2c5282;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background: #e0f2fe;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 1200px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .card a:hover {
+            background: #2563eb;
+        }
+        footer {
+            text-align: center;
+            background: #3b82f6;
+            color: white;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        .dashboard-button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .dashboard-button:hover {
+            background: #2563eb;
+        }
+    </style>
+    <header>
+        <h1>Interactive Learning Tools</h1>
+        <p>Engage, Learn, Succeed</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tools">Interactive Tools</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="hero" id="home">
+        <h1>Welcome to the Future of Learning</h1>
+        <p>Explore our tools designed to make education engaging and effective.</p>
+    </section>
+    <section class="section" id="tools">
+        <h2>Interactive Tools</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Interactive Quizzes</h3>
+                <p>Answer questions, get instant feedback, and improve as you learn.</p>
+                <a href="interactive quizzes.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Gamified Lessons</h3>
+                <p>Learn through games, challenges, and achievements.</p>
+                <a href="gamified lessons.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Resource Library</h3>
+                <p>Access videos, documents, and multimedia for self-paced learning.</p>
+                <a href="resource library.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Collaboration Tools</h3>
+                <p>Engage in group discussions, live chats, and virtual whiteboards.</p>
+                <a href="collaboration tools.html">Learn More</a>
+            </div>
+            <div class="card">
+                <h3>Progress Analytics</h3>
+                <p>Track your learning journey with detailed insights.</p>
+                <a href="progress analytics.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="dashboard">
+        <h2>Student Dashboard</h2>
+        <p>Your personalized space to view progress, assignments, and feedback.</p>
+        <a href="dashboard.html" class="dashboard-button">Go to Dashboard</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Interactive Learning Tools. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
